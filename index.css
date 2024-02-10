@@ -5,6 +5,7 @@ body {
 
 
 button {
+    text-align: center;
     font-size: 1.5rem;
     padding: 10px 15px;
     border-radius: 10px;
@@ -12,4 +13,10 @@ button {
     background-color: black;
     color: white;
     font-weight: bolder;
+}
+
+img {
+    width: 320px;
+    display: block;
+    margin: auto;
 }
