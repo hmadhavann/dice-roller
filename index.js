@@ -12,7 +12,7 @@ function rollDice() {
 */
 
 async function fetchRandomNumber() {
-    const url = "https://dice-roller-nodejs-hm.azurewebsites.net/getRandomNumber"
+    const url = "https://dice-roller-nodejs-hm.azurewebsites.net" + "/getRandomNumber"
     const response = await fetch(url);
     const responseNum = await response.text();
     console.log(response);
